@@ -4,7 +4,6 @@ import ts from 'typescript-eslint';
 
 import typescriptParser from '@typescript-eslint/parser';
 
-/** @type {import('eslint').Linter.Config[]} */
 export default [
   { files: ['**/*.{js,ts}'] },
   {
