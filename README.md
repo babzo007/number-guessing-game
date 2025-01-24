@@ -1,6 +1,6 @@
 # Number Guessing Game
 
-A simple number guessing game to test your luck.
+[Project url](https://roadmap.sh/projects/number-guessing-game 'A simple number guessing game to test your luck.').
 
 ## Table of Contents
 
