@@ -10,7 +10,7 @@
     "number"
   ],
   "author": "Ababacar Niang",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "repository": "bschlenk/node-typescript-jest-boilerplate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
