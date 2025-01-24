@@ -1,5 +1,9 @@
 import { CHOICES } from '../types/enums.js';
 
+/**
+ * Generate a random number between 1 and 100
+ * @returns {number} - Random number
+ */
 export function generateNumber(): number {
   return Math.floor(Math.random() * 100) + 1;
 }

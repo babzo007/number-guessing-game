@@ -9,15 +9,16 @@ async function main() {
 
   const choice = await displayMessage(welcomeMessage);
   const gameService = new GameService();
+  await gameService.startGame(Number(choice));
 
-  let res = await gameService.startGame(Number(choice));
   let playAgain = true;
+
   while (playAgain) {
     playAgain = await displayConfirm('Do you want to play again? (yes/no)');
 
     if (playAgain) {
       const choice = await displayMessage(welcomeMessage);
-      res = await gameService.startGame(Number(choice));
+      await gameService.startGame(Number(choice));
     }
   }
 }

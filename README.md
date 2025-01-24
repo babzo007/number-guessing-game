@@ -32,7 +32,7 @@ To install and set up the project, follow these steps:
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone git@github.com:babzo007/number-guessing-game.git
    cd number-guessing-game
    ```
 

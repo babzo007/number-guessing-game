@@ -10,7 +10,7 @@ export class GameService {
     this.startTime = 0;
   }
   async startGame(choice: number): Promise<string> {
-    const guessNumber = generateNumber(); // generate the number to guess between
+    const guessNumber = generateNumber();
 
     this.startTime = Date.now();
 

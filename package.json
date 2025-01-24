@@ -11,9 +11,8 @@
   ],
   "author": "Ababacar Niang",
   "license": "UNLICENSED",
-  "repository": "bschlenk/node-typescript-jest-boilerplate",
+  "repository": "https://github.com/babzo007/number-guessing-game",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "husky",
     "start": "node ./dist/index.js",
